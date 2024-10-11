@@ -35,3 +35,7 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### Dev and production config files
+application-dev.properties
+application-production.properties

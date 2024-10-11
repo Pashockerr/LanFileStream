@@ -39,6 +39,8 @@ dependencies {
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 	// https://mvnrepository.com/artifact/com.h2database/h2
 	implementation("com.h2database:h2:2.3.232")
+	// https://mvnrepository.com/artifact/org.postgresql/postgresql
+	implementation("org.postgresql:postgresql:42.7.4")
 }
 
 tasks.withType<Test> {
